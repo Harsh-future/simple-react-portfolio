@@ -1,41 +1,41 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "role": "Software Engineer",
+    "organisation": "909 Technologies Pvt. Ltd.",
+    "startDate": "Feb, 2024",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Gurgaon, India",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Developed and maintained PPM Project on JMIX based on SpringBoot and Vaadin as Front-end development",
+      "Debugged and Analyzed Code to optimize the code structure"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/909.webp"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "Software Development Engineer",
+    "organisation": "Future Alogorithm Pvt. Ltd.",
+    "startDate": "July, 2023",
+    "endDate": "Jan, 2024",
+    "location": "Gurgaon, India",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Worked on Insurance Claim project developed on Intellitrack",
+      "Leveraged Core Java, JavaScript and JQuery to build seamless claim submission & management"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/fapl.jpg"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Quality Assurance Engineer - Intern",
+    "organisation": "Unicommerce",
+    "startDate": "Jan, 2023",
+    "endDate": "Jun, 2023",
+    "location": "Gurgaon, India",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Worked on latency testing of the Shippent Tracking APIs",
+      "Automated the flow of order testing using RestFul APIs"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/unicommerce.png"
   }
 ]

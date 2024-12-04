@@ -17,7 +17,7 @@ const Experience = () => {
                   <div className="right">
                     <h2>{data.role}</h2>
                     <h4 style={{color: "yellowgreen"}}>
-                      {data.startDate}{" "}{data.endDate}{" "}{data.location}
+                      {data.startDate}{" - "}{data.endDate}{" ("}{data.location}{")"}
                     </h4>
                     {
                       data.experiences.map((exp) => {

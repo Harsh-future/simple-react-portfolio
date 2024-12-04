@@ -15,6 +15,12 @@ a{
   color: white;
 }
 
+.container h1 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.8rem;
+}
+
 .typed-container {
   display: inline; 
 }
@@ -65,6 +71,10 @@ a{
   box-shadow: var(--box-shadow);
 }
 
+.container.exp .right{
+  flex: 1;
+}
+
 .home .right .img img{
   width: 270px;
   height: 270px;
@@ -103,13 +113,21 @@ a{
 
 /* Experience Section  */
 
+.exp .left{
+  width: 100px;
+}
+
+.exp .left img{
+  max-width: 100%;
+}
+
 .exp{
   width: 900px;
 }
 
 .ex-items{
   display: flex;
-  justify-content: space-evenly;
+  gap: 30px;
   align-items: center;
   margin: 20px;
   background-color: var(--bg-color);
@@ -134,6 +152,10 @@ a{
 }
 
 .skills .items .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: calc(33.33%);
   background-color: black;
   margin: 20px;
@@ -142,6 +164,7 @@ a{
   border-radius: 10px;
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
+  height: 180px;
 }
 
 .skills .items .item img{

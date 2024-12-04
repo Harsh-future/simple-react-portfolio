@@ -8,11 +8,11 @@ const Home = () => {
   useEffect(() => {
     
     const options = {
-      strings : ["Welcome to my Profile", "My name is Harsh Singh Chauhan", "I am a full Stack Developer", "Android Developer (React Native)"],
+      strings : ["Welcome to my Profile. My name is Harsh Singh Chauhan. I am a Full Stack Developer."],
       typeSpeed:50,
       backSpeed:50,
       showCursor:false,
-      loop:true
+      loop:false
     }
 
     const typed = new Typed(typedRef.current, options)
